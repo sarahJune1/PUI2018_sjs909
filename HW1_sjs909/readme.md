@@ -6,4 +6,4 @@ Hopefully this all works and is correct.
 
 ![first screenshot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW1_sjs909/first.png)
     
-![second screenshot](sarahJune1/PUI2018_sjs909/HW1_sjs909/second.png)
+![second screenshot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW1_sjs909/images/second.png)
