@@ -3,5 +3,9 @@ I created the repository online, then I connected it to my local terminal using 
 then I added the new file of HW1_sjs909. \
 lastly I created this readme file and added this content.\
 Hopefully this all works and is correct.
-![Alt text](PUI2018_sjs909/HW1_sjs909/Screen Shot 2018-09-14 at 12.20.01 PM.png)
-![Alt text](PUI2018_sjs909/HW1_sjs909/Screen Shot 2018-09-14 at 12.20.36 PM.png)
+![alt text](
+      PUI2018_sjs909/HW1_sjs909/Screen Shot 2018-09-14 at 12.20.36 PM.png
+    )
+![alt text](
+      PUI2018_sjs909/HW1_sjs909/images/second.png
+    )
