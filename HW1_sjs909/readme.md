@@ -4,6 +4,6 @@ then I added the new file of HW1_sjs909. \
 lastly I created this readme file and added this content.\
 Hopefully this all works and is correct.
 
-![first screenshot](PUI2018_sjs909/HW1_sjs909/images/first.png)
+![first screenshot](../PUI2018_sjs909/HW1_sjs909/images/first.png)
 
-![second screenshot](PUI2018_sjs909/HW1_sjs909/images/second.png)
+![second screenshot](../PUI2018_sjs909/HW1_sjs909/images/second.png)
