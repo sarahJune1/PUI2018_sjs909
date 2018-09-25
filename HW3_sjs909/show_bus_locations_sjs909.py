@@ -35,22 +35,11 @@ MTAdata = json.loads(MTAdata)
 
 print("Bus Line : " + BUS_LINE)
 #print("Number of Active Buses : " + DistanceFromCall)
-print("Number of Active Buses : ")
-print(len(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity']))
-print("Bus 0 is at: " )
-print(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][0]['MonitoredVehicleJourney']['VehicleLocation'])
-print("Bus 1 is at: " )
-print(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][1]['MonitoredVehicleJourney']['VehicleLocation'])
-print("Bus 2 is at: " )
-print(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][2]['MonitoredVehicleJourney']['VehicleLocation'])
-print("Bus 3 is at: " )
-print(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][3]['MonitoredVehicleJourney']['VehicleLocation'])
-print("Bus 4 is at: " )
-print(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][4]['MonitoredVehicleJourney']['VehicleLocation'])
-print("Bus 5 is at: " )
-print(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][5]['MonitoredVehicleJourney']['VehicleLocation'])
-print("Bus 6 is at: " )
-print(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][6]['MonitoredVehicleJourney']['VehicleLocation'])
-print("Bus 7 is at: " )
-print(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][7]['MonitoredVehicleJourney']['VehicleLocation'])
+print("Number of Active Buses : " + str(len(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'])))
 
+busNum = len(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'])
+
+for i in range(busNum):
+    lat = MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
+    long = MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
+    print("Bus " + str(i) + " is at latitude " + str(lat) + " and at longitude " + str(long))
