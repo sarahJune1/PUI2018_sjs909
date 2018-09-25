@@ -34,7 +34,7 @@ MTAdata = json.loads(MTAdata)
 
 
 print("Bus Line : " + BUS_LINE)
-#print("Number of Active Buses : " + DistanceFromCall)
+
 print("Number of Active Buses : " + str(len(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'])))
 
 busNum = len(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'])

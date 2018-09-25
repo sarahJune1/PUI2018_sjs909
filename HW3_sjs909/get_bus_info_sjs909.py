@@ -36,13 +36,14 @@ fout = open(sys.argv[3], "w")
 busNum = len(MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'])
 
 for i in range(busNum):
-    if MTAdata.get('OnwardCall') == '':
-        Stop_Status ='N/a'
-        Stop_Name = 'N/a'
-    else:
+    try:
         Stop_Status = MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['Extensions']['Distances']['PresentableDistance']
         Stop_Name = MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][1]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][i]['StopPointName']
         lat = MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
         long = MTAdata['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
-        print(str(lat) + str(long) + str(Stop_Name)+ " is " + str(Stop_Status))
-        fout.write(str(lat)+ ',' + str(long)+ ','+str(Stop_Name)+ ','+str(Stop_Status)+"\n")
+    except KeyError:       
+        Stop_Status ='N/a'
+        Stop_Name = 'N/a'
+   
+    print(str(lat) + str(long) + str(Stop_Name)+ " is " + str(Stop_Status))
+    fout.write(str(lat)+ ',' + str(long)+ ','+str(Stop_Name)+ ','+str(Stop_Status)+"\n")
