@@ -1,9 +1,9 @@
-This homework had four parts. The first to make and remove a file with the commit 59ebb5d which is shown below. /n 
-Next we had to play around with data from NYC Open Data repository. I made a few graphs to visualize information. /n
-Then we used the MTA api to scrape real-time information about the buses with a python script. /n
-I worked on my own :/ but was able to do it! /n
-The first script shows the latitude and longitude of the active buses. /n
-The second script uploads the location and information about the next stop into a csv file format. 
+This homework had four parts. The first to make and remove a file with the commit 59ebb5d which is shown below. <br/>
+Next we had to play around with data from NYC Open Data repository. I made a few graphs to visualize information. <br/>
+Then we used the MTA api to scrape real-time information about the buses with a python script. <br/>
+I worked on my own :/ but was able to do it! <br/>
+The first script shows the latitude and longitude of the active buses. <br/>
+The second script uploads the location and information about the next stop into a csv file format. <br/>
 
 
 # This was the history of making the file
