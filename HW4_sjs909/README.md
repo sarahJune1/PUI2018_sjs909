@@ -9,6 +9,7 @@ Find under name CitiBike
 I worked with Andrew Hill to develop a hypothesis with regard to the CitiBike data.\
 We looked into the distribution of duration in the bike ride compared by User Type. \
 Between Subscribers (Annual Member) and Customers (24-hour pass or 3-day pass user) \
+I created the group by feature selection to plot the distribution graph.
 
 # For Assignment 3:
 Please find this under HW3_sjs909 \
