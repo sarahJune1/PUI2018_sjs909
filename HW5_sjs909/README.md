@@ -11,5 +11,5 @@ ANOVA	| 1, Anthropomorphic Litter Density in Urban Freshwater | continuous | 3, 
   |||||||||
   <br> 
   <br>
-  **Main Plot**
+  **Main Plot** <br>
   ![main plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/journalANOVA.png?raw=true)
