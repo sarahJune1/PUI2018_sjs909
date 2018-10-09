@@ -41,3 +41,11 @@ Logistic Regression    | 3, Cardiac Recovery Time, Heart Rate, Average Speed | N
 
   ![third plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/pics/AndyCurve.png?raw=true)
  
+ **Assignment 3: Reproduce the analysis of the Hard to Employ program in NY:**<br>
+ I worked on this assignment on my own and looked into the hypothesis testing to reproduce the results in the analysis. I used z-score and chi-square test to test the hypothesis <br>
+ 
+ **Assignment 4: Tests of correlation using the scipy package with citibike data.**
+ I also worked alone on this assignment. The goal was to practice using Pearson’s test, Spearman’s test and the K-S test to test the hypothesis of trip duration between citibike riders for the day compared to night.
+ 
+ 
+
