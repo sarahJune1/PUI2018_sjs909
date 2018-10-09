@@ -12,7 +12,7 @@ ANOVA	| 1, Anthropomorphic Litter Density in Urban Freshwater | continuous | 3, 
 <br> 
 <br>
   
-  ![main plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/journalANOVA.png)
+  ![main plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/pics/journalANOVA.png)
 <br>
 <br>
 Rohun Iyer completed the test for Path Analysis. The table he created is below. <br><br>
@@ -25,7 +25,7 @@ Path Analysis    | 1 - Age of Women  2 - Place of residence  3 - Religion  4 - S
  
 <br> 
 <br> 
-  ![second plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/RohDownload.png)
+  ![second plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/pics/RohDownload.png)
 <br>
 <br>
 Andrew Hill completed the test for Logistic Regression. The table he created is below.<br>
@@ -37,5 +37,5 @@ Logistic Regression    | 3, Cardiac Recovery Time, Heart Rate, Average Speed | N
 
 <br> 
 <br> 
-  ![third plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/AndyCurve.png)
+  ![third plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/pics/AndyCurve.png)
  
