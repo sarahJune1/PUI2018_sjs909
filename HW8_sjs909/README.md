@@ -19,7 +19,9 @@ A more extensive report that I am currently working on for the New York State De
 In this report, I am looking at the percentage of claims for this preventative HIV/AIDS drug called PreP. Specifically, comparing the proportion of Females compared to Males that file claims with MediCaid. The reason for choosing these two counties are from the map derived below as reference. <br> Data about claims filing was provided by the New York State Department of Health.
 
 <br>
+
 **Plot of Females Compared to Males Who Filed a Claim for PreP**
+
 
 ![Image of Plot](NYSFproportionLabel.png)
 
