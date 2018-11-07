@@ -8,7 +8,7 @@ Below is a breakdown of Diversity Demographics per capita in Fulton and Schohari
 
 Notice the color pallete has been tested for color blindness in mind. For this assingmnet, my goal was to make a parsimonious plot. Additionally, there is no redundant information shown.
 
-Please find the code I used to create the plot under the file Assignment1.
+Please find the code I used to create the plot under the file Assignment1_sjs909.
 
 <br>
 
@@ -29,9 +29,14 @@ In this report, I am looking at the percentage of claims for this preventative H
 
 We reviewed our Citi Bike project from HW 4, where Andrew Hill and I explored our hypothesis of ride duration as a factor of user type. We recieved feedback from a peer review and incorporated this into our methodology. <br>
 
-We decided a t-test was the most appropriate analysis to test our hypothesis because we were comparing the trip duration time between two samples, Customers and Subscribers.
-
-The python notebook is included in this repository.
-
 Below is a link to our report: <br>
 https://www.authorea.com/335431/4GpA9BRMNtsXl3Sb-gjoJA
+
+We decided a t-test was the most appropriate analysis to test our hypothesis because we were comparing the trip duration time between two samples, Customers and Subscribers.
+
+The python notebook is included in this repository called Assignment2_sjs909.
+
+<br>
+Andrew Hill and I worked together to formulate our analysis and decide which test to apply. Andrew did the coding for the test, I wrote about the methodology and other parts for our report.
+<br>
+
