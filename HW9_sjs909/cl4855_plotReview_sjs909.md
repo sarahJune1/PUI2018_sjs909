@@ -1,4 +1,4 @@
-(![](https://github.com/AngelLau/PUI2018_cl4855/blob/master/HW8_cl4855/Dogbreed.png))
+![](https://github.com/AngelLau/PUI2018_cl4855/blob/master/HW8_cl4855/Dogbreed.png)
 
 Interesting to see the breakdown of dog breed for each borough. It was easy to see that the Yorkshire Terrier is one of the most popular in each one. However it would have been helpful to sort the columns so this would be more apparent. Also for Manhattan the legend is covering where it says Chihuahua. 
 
