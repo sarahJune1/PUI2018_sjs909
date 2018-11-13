@@ -12,4 +12,40 @@ ANOVA	| 1, Anthropomorphic Litter Density in Urban Freshwater | continuous | 3, 
 <br> 
 <br>
   
-  ![main plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/journalANOVA.png)
+  ![main plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/pics/journalANOVA%20.png?raw=true)
+<br>
+<br>
+Rohun Iyer completed the test for Path Analysis. The table he created is below. <br><br>
+
+
+| **Statistical Analyses**	|  **IV(s)**  |  **IV type(s)** |  **DV(s)**  |  **DV type(s)**  |  **Control Var** | **Control Var type**  | **Question to be answered** | **_H0_** | **alpha** | **link to paper**| 
+|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
+Path Analysis    | 1 - Age of Women  2 - Place of residence  3 - Religion  4 - Socioeconomic Status  5 - Family planning methods | 1-3 categorial, 4-5 ordinal | 1 - Unwanted births . 2 - women education . 3 - Age at first marriage| 1-3 categorical | NA | NA | What are the determinants of unwanted births in Bangladesh | Sociodemographic variable has direct/indirect effect on the likelyhood of an unwanted birth  | 0.05 and 0.01 | [Correlates of Unwanted Births in Bangladesh: A Study through Path Analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164007#pone-0164007-t002) |
+ |||||||||
+ 
+<br> 
+<br> 
+
+  ![second plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/pics/RohDownload.png?raw=true)
+<br>
+<br>
+Andrew Hill completed the test for Logistic Regression. The table he created is below.<br>
+
+| **Statistical Analyses**	|  **IV(s)**  |  **IV type(s)** |  **DV(s)**  |  **DV type(s)**  |  **Control Var** | **Control Var type**  | **Question to be answered** | **_H0_** | **alpha** | **link to paper**| 
+|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
+Logistic Regression    | 3, Cardiac Recovery Time, Heart Rate, Average Speed | Numerical | 1, Qualified/Eliminated| categorical | Distance travelled, Age | Numerical | Can Cardiac Recovery Time, Heart Rate, and Average Speed accurately predict whether or not horses will be eliminated from endurance competitions | This model accurately predicts less than or equal to 50% of outcomes | 0.5 | [Speed and Cardiac Recovery Variables Predict the Probability of Elimination in Equine Endurance Events](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137013) |
+ |||||||||
+
+<br> 
+<br> 
+
+  ![third plot](https://github.com/sarahJune1/PUI2018_sjs909/blob/master/HW5_sjs909/pics/AndyCurve.png?raw=true)
+ 
+ **Assignment 3: Reproduce the analysis of the Hard to Employ program in NY:**<br>
+ I worked on this assignment on my own and looked into the hypothesis testing to reproduce the results in the analysis. I used z-score and chi-square test to test the hypothesis <br>
+ 
+ **Assignment 4: Tests of correlation using the scipy package with citibike data.**
+ I also worked alone on this assignment. The goal was to practice using Pearson’s test, Spearman’s test and the K-S test to test the hypothesis of trip duration between citibike riders for the day compared to night.
+ 
+ 
+
