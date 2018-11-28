@@ -1,0 +1,3 @@
+I am using my homework extension this week :)
+
+Assignment 1 is finished and 2 is a work in progress....
