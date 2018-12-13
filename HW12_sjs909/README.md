@@ -18,7 +18,7 @@ Then finally to get the correct answer of annual periodicity I worked alone on t
 
 This assignment practiced clustering on data from the Census Bureau Business Data for all years 1993-2014. I downloaded the data from professor Bianco's repository for each year and then concatenated to find the number of establishments per year and per zip code. Then using a shapefile from NYC Open Data we downloaded the zipcodes shapefile to create a choropleth of each cluster.
 
-Using k-means clustering I decided an optimal number of means of 3.
+Using k-means clustering I decided an optimal number of means of 6.
 
 I began to work on this assignment with Andrew Hill to collect the data in a programatic way. Urusula helped me with the unstack function to make each year into a pivot table. Then I worked on my own to make the choropleths.
 
